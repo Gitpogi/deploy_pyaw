@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "Contract Law1",
+      "patterns": ["Hawkins v McGee", "Hawkins", "The Hairy Hand"],
+      "responses": [
+        "(Defendent McGee) promised a patient (Plaintiff Hawkins) a 100% good hand after a skin graft but the operation resulted in a hairy palm instead.The court ruled that damages should be the difference in value between the promised hand and the actual hand plus incidental damages focusing on expectation damages to put the plaintiff in the position had the contract been fulfilled"
+      ]
+    },
+    {
+      "tag": "amendment2",
+      "patterns": ["2nd", "Second"],
+      "responses": [
+        "A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed"
+      ]
+    },
+    {
+      "tag": "amendment3",
+      "patterns": ["3rd", "Third"],
+      "responses": [
+        "Soldiers shall not be quatered in any home without consent of owner."
+      ]
+    },
+    {
+      "tag": "amendment4",
+      "patterns": ["4th", "Fourth"],
+      "responses": [
+        "Prohibits search and seizure of a persons home and personal effects without probable clause and a warrant issued under oath."
+      ]
+    },
+    {
+      "tag": "amendment5",
+      "patterns": ["5th", "Fifth"],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
